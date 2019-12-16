@@ -19,10 +19,32 @@ else:
     print("Porfavor solo di si o no, lo tomare como un no")
     apetece_helado = False
 
+esta_el_heladero_input = input("Esta el señor que vende helados? (Si / No): ").upper()
+
+if esta_el_heladero_input == "SI":
+    esta_el_heladero = True
+elif esta_el_heladero_input == "NO":
+    esta_el_heladero = False
+else:
+    print("Capullo, te he dicho que digas si o no, tanto te cuesta? te lo cuento como no")
+    esta_el_heladero = False
 
 tiene_dinero_input = input("Tienes dinero para un helado? (Si / No): ").upper()
-esta_el_heladero_input = input("Esta el señor que vende helados? (Si / No): ").upper()
+
+if tiene_dinero_input == "SI":
+    tiene_dinero = True
+elif tiene_dinero_input == "NO":
+    tiene_dinero = False
+else:
+    print("Solo di si o no no es dificil, tu respuesta se automatiza a no")
+
 esta_tu_tia_input = input("Estas con tu tia? (Si / No): ").upper()
+if esta_tu_tia_input == "SI"
+    esta_tu_tia = True
+elif esta_tu_tia_input == "NO"
+    esta_tu_tia = False
+else:
+    print("No puedes poner lo que te plazca, lo tomo como un NO")
 
 
 apetece_helado = apetece_helado_input == "SI"
