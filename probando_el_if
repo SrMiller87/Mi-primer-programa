@@ -1,10 +1,48 @@
 
-number_to_guest = 2
+number_to_guest = 8
 
-user_number = int(input("Adivina un numero del 1 al 10: "))
+user_number = int(input("Adivina un numero del 1 al 20: "))
 
 if number_to_guest == user_number:
-    print("Has ganado")
+    print("Has ganado una paliza")
 else:
     print("Has perdido")
+
+number_to_guest = 15
+
+user_number = int(input("Adivina un numero del 1 al 20: "))
+
+if number_to_guest == user_number:
+    print("Has ganado una paliza")
+else:
+    print("Has perdido, que noob")
+
+number_to_guest = 5
+
+user_number = int(input("Adivina un numero del 1 al 20: "))
+
+if number_to_guest == user_number:
+    print("Has ganado una paliza")
+else:
+    print("Has perdido, me estas cansando")
+
+number_to_guest = 19
+
+user_number = int(input("Adivina un numero del 1 al 20: "))
+
+if number_to_guest == user_number:
+    print("Has ganado una paliza")
+else:
+    print("Has perdido gilipollas")
+
+number_to_guest = 2
+
+user_number = int(input("Adivina un numero del 1 al 5: "))
+
+if number_to_guest == user_number:
+    print("Has ganado una paliza")
+else:
+    print("Has perdido ME CAGO EN TU PUTA MADRE")
+
+
 
