@@ -1,0 +1,10 @@
+
+number_to_guest = 2
+
+user_number = int(input("Adivina un numero: "))
+
+if number_to_guest == user_number:
+    print("Has ganado")
+else:
+    print("Has perdido")
+
