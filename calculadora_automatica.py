@@ -1,20 +1,12 @@
+def menu(regresar_menu):
+    user_action = input("Que operacion quieres realizar? [Sumar] / [Restar] / [Multiplicar] / [Dividir] : ").upper()
+    accionar_menu = 0
+    while accionar_menu <= 0:
+        accionar_menu + 1
+    while accionar_menu > 0:
+        print("Volviendo al menu...")
+        return user_action
 
-#---------------------------------------MENU DEL PROGRAMA-------------------------------------------
-print("---Si pulsa FIN se cerrara el programa automaticamente---")
-user_action = input("Que operacion quieres realizar? [Sumar] / [Restar] / [Multiplicar] / [Dividir] : ").upper()
-
-regresar_menu = input("Quiere salir del programa? (Si) (No) : ")
-
-if regresar_menu == "Si":
-    regresar_menu = True
-    print("Saliendo...")
-elif regresar_menu == "No":
-    regresar_menu = False
-    print("Continuamos pues")
-
-if user_action == "FIN":
-    print("El programa se cerrara")
-#--------------------------------------FUNCIONES DEL PROGRAMA---------------------------------------
 while user_action == "SUMAR":
     primer_numero = int(input("Primer Numero: "))
     segundo_numero = int(input("Segundo Numero: "))
@@ -42,5 +34,4 @@ while user_action == "DIVIDIR":
     if primer_numero and segundo_numero:
         print("El resultado de la Division es: ")
         print(primer_numero / segundo_numero)
-#---------------------------------------VARIABLES-------------------------------------------------
 
